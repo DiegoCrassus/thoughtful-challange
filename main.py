@@ -13,7 +13,12 @@ class ThoughtfulRobot:
         if mass >= self.MAXIMUN_MAS:
             heavy = True
 
-        return "REJECTED" if bulky and heavy else "SPECIAL" if bulky or heavy else "STANDARD"
+        if bulky and heavy:
+            return "REJECTED"
+        elif bulky or heavy:
+            return "SPECIAL"
+        else:
+            return "STANDARD"
 
 if __name__ == '__main__':
     robot = ThoughtfulRobot()
