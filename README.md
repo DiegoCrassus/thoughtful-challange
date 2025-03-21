@@ -1,51 +1,51 @@
 # Thoughtful Automation Challenge
 
-Este projeto é uma implementação do desafio técnico proposto pela Thoughtful Automation. O objetivo é criar uma solução que processa dados de entrada e gera relatórios analíticos.
+This project is an implementation of the technical challenge proposed by Thoughtful Automation. The goal is to create a solution that processes input data and generates analytical reports.
 
-## Funcionalidades Principais
+## Main Features
 
-- Processamento de dados de entrada
-- Geração de relatórios analíticos
-- Exportação de resultados em diferentes formatos
+- Input data processing
+- Analytical report generation
+- Result export in different formats
 
-## Requisitos
+## Requirements
 
 - Python 3.8+
-- Bibliotecas listadas em requirements.txt
+- Libraries listed in requirements.txt
 
-## Como Executar
+## How to Run
 
-1. Crie um ambiente virtual:
+1. Create a virtual environment:
 ```bash
 python -m venv venv
 ```
 
-2. Ative o ambiente virtual:
-- No Linux/MacOS:
+2. Activate the virtual environment:
+- On Linux/MacOS:
 ```bash
 source venv/bin/activate
 ```
-- No Windows:
+- On Windows:
 ```bash
 venv\Scripts\activate
 ```
 
-3. Instale as dependências:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Execute o projeto:
+4. Run the project:
 ```bash
 python -m main
 ```
 
-## Estrutura do Projeto
+## Project Structure
 
-- `main.py`: Ponto de entrada do aplicativo
-- `examples.txt`: Exemplos de dados de entrada
-- `README.md`: Documentação do projeto
+- `main.py`: Application entry point
+- `examples.txt`: Input data examples
+- `README.md`: Project documentation
 
-## Contribuição
+## Contribution
 
-Siga as diretrizes de contribuição no repositório oficial.
+Follow the contribution guidelines in the official repository.
